@@ -24,7 +24,7 @@ function App() {
   /* --- Sumbit process --- */
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Data > ",data);
+    console.log("Form Data > ", data);
     setShow(true);
   };
   /* --- Cancel process --- */
@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      {show ? <Confirm data = {data} onCancel = {cancel}/> : <></>}
+      {show ? <Confirm data={data} onCancel={cancel} /> : <></>}
       <div className='formDiv'>
         <form onSubmit={handleSubmit}>
 

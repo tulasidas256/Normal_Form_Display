@@ -13,7 +13,7 @@ const Confirm = ({data , onCancel}) => {
         <div className="modal">
             <div className="modal-content">
                 <h1 className="submit-h1">Submit Successfully !!</h1>
-                <h3>Submited Detail Data</h3>
+                <h3>Applicant Detail</h3>
                 <p>Applicant Name : {data.firstName} {data.lastName}</p>
                 <p>E-mail : {data.email}</p>
                 <p>Phone No. : {data.phone}</p>
